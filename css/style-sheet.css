@@ -1,0 +1,17 @@
+/* ============================================================
+   PAGE THEMES — each chapter gets its own accent mood
+   ============================================================ */
+.page-mountain{ --accent:#4A5573; --accent-deep:#333A52; --page-bg-1:#EFF1F7; --page-bg-2:#E1E5F1; }
+.page-beach   { --accent:#2C8C8C; --accent-deep:#1F5F63; --page-bg-1:#FFF6EC; --page-bg-2:#FFE9D6; }
+.page-winter    { --accent:#5B8AA6; --accent-deep:#2E5E78; --page-bg-1:#F3FAFD; --page-bg-2:#E3F1F8; }
+.page-bike    { --accent:#E07A3F; --accent-deep:#9C4E20; --page-bg-1:#FFF3E8; --page-bg-2:#FCE1CB; }
+
+/* ---- small icon badges used on homepage journey cards ---- */
+.icon-badge{
+  width:46px; height:46px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  background:color-mix(in srgb, var(--accent) 16%, #fff);
+  margin:0 auto 1.1rem;
+}
+.icon-badge svg{ width:24px; height:24px; stroke:var(--accent-deep); }
+EOF
